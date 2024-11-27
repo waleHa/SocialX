@@ -255,27 +255,29 @@ SocialX is built using **Clean Architecture** principles, promoting separation o
 ---
 
 ## Future Enhancements
-0. **Unit Tests**: Start by testing ViewModels and Use Cases for verifying business logic.
-1. **User Authentication**: Implement sign-up and login for personalized experiences.
-2. **Real-Time Updates**: Use WebSockets or Firebase for live feed updates.
-3. **Enhanced Like Functionality**:
+1. **Unit Tests**: Start by testing ViewModels and Use Cases for verifying business logic.
+2. **User Authentication**: Implement sign-up and login for personalized experiences.
+3. **Real-Time Updates**: Use WebSockets or Firebase for live feed updates.
+4. **Enhanced Like Functionality**:
     - Attach likes to specific users, allowing users to see who liked a post.
     - Add animations for like/unlike actions.
-4. **Improved Comments**:
+5. **Improved Comments**:
     - Threaded comments for direct replies.
     - Comment moderation features.
-5. **Deferred Actions**:
+6. **Deferred Actions**:
     - Allow offline likes and comments, syncing when online.
-6. **Connectivity Awareness**:
+7. **Connectivity Awareness**:
     - Notify users of network status changes.
-7. **Profile Customization**:
+8. **Profile Customization**:
     - Users can edit their profiles, including bio and profile picture.
-8. **Push Notifications**:
+9. **Push Notifications**:
     - Notify users of interactions like likes, comments, or mentions.
-9. **Explore Page**:
+10. **Explore Page**:
     - Discover new content based on interests or trends.
-10. **Direct Messaging**:
+11. **Direct Messaging**:
     - Private messaging between users.
+12. **Modularization**:
+    - Split the app into multi-modules based on features and clean architecture for better scalability.
 
 ---
 
