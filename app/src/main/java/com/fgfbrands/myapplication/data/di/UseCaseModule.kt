@@ -2,7 +2,6 @@ package com.fgfbrands.myapplication.data.di
 
 import com.fgfbrands.myapplication.domain.repo.PostRepository
 import com.fgfbrands.myapplication.domain.repo.UserRepository
-import com.fgfbrands.myapplication.domain.usecase.FetchPostByIdUseCase
 import com.fgfbrands.myapplication.domain.usecase.FetchUserByIdUseCase
 import com.fgfbrands.myapplication.domain.usecase.GetCommentsUseCase
 import com.fgfbrands.myapplication.domain.usecase.GetPostsUseCase
@@ -11,7 +10,6 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.components.ViewModelComponent
-
 
 
 /**
@@ -28,6 +26,11 @@ object UseCaseModule {
         GetPostsUseCase(postRepository)
 
     @Provides
+    fun provideGetCommentsUseCase(postRepository: PostRepository): GetCommentsUseCase {
+        return GetCommentsUseCase(postRepository)
+    }
+
+    @Provides
     fun provideLikePostUseCase(postRepository: PostRepository): LikePostUseCase =
         LikePostUseCase(postRepository)
 
@@ -35,11 +38,5 @@ object UseCaseModule {
     fun provideFetchUserByIdUseCase(userRepository: UserRepository): FetchUserByIdUseCase =
         FetchUserByIdUseCase(userRepository)
 
-    @Provides
-    fun provideFetchPostByIdUseCase(postRepository: PostRepository): FetchPostByIdUseCase =
-        FetchPostByIdUseCase(postRepository)
 
-    @Provides
-    fun provideGetCommentsUseCase(postRepository: PostRepository): GetCommentsUseCase =
-        GetCommentsUseCase(postRepository)
 }
