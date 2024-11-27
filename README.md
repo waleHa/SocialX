@@ -10,6 +10,10 @@ SocialX is designed to mimic the core functionalities of social media platforms,
 
 **Note**: The APIs used in this app are for demonstration purposes and utilize dummy data to simulate real-world interactions.
 
+**Sample**:
+<img width="329" alt="image" src="https://github.com/user-attachments/assets/a4a31f27-56b8-487a-8f10-ca12e50ab55f">
+
+
 ---
 
 ## Key Features
@@ -218,7 +222,7 @@ SocialX is built using **Clean Architecture** principles, promoting separation o
 ---
 
 ## Future Enhancements
-
+0. **Unit Tests**: Start by testing ViewModels and Use Cases for verifying business logic.
 1. **User Authentication**: Implement sign-up and login for personalized experiences.
 2. **Real-Time Updates**: Use WebSockets or Firebase for live feed updates.
 3. **Enhanced Like Functionality**:
