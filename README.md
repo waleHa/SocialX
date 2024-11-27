@@ -10,7 +10,12 @@ SocialX is designed to mimic the core functionalities of social media platforms,
 
 **Note**: The APIs used in this app are for demonstration purposes and utilize dummy data to simulate real-world interactions.
 
-**Sample**:
+
+---
+
+## Sample
+
+
 <img width="329" alt="image" src="https://github.com/user-attachments/assets/a4a31f27-56b8-487a-8f10-ca12e50ab55f">
 
 
