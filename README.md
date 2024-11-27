@@ -4,6 +4,34 @@ Welcome to **SocialX**, a social media feed application developed as an assignme
 
 ---
 
+## Table of Contents
+
+1. [Introduction](https://github.com/waleHa/SocialX/blob/main/README.md#introduction)
+2. [Sample](https://github.com/waleHa/SocialX/blob/main/README.md#sample)
+3. [Key Features](https://github.com/waleHa/SocialX/blob/main/README.md#key-features)
+   - [Scrollable Feed of Posts with Images](https://github.com/waleHa/SocialX/blob/main/README.md#scrollable-feed-of-posts-with-images)
+   - [Like/Unlike Functionality](https://github.com/waleHa/SocialX/blob/main/README.md#likeunlike-functionality)
+   - [Comment Section](https://github.com/waleHa/SocialX/blob/main/README.md#comment-section)
+   - [Pull to Refresh](https://github.com/waleHa/SocialX/blob/main/README.md#pull-to-refresh)
+   - [User Profiles](https://github.com/waleHa/SocialX/blob/main/README.md#user-profiles)
+   - [Offline Support](https://github.com/waleHa/SocialX/blob/main/README.md#offline-support)
+4. [Technical Implementation](https://github.com/waleHa/SocialX/blob/main/README.md#technical-implementation)
+   - [Architecture Overview](https://github.com/waleHa/SocialX/blob/main/README.md#architecture-overview)
+   - [Tech Stack](https://github.com/waleHa/SocialX/blob/main/README.md#tech-stack)
+   - [Design Patterns and Principles](https://github.com/waleHa/SocialX/blob/main/README.md#design-patterns-and-principles)
+5. [Requirements Coverage](https://github.com/waleHa/SocialX/blob/main/README.md#requirements-coverage)
+   - [List Performance](https://github.com/waleHa/SocialX/blob/main/README.md#list-performance)
+   - [Memory Management](https://github.com/waleHa/SocialX/blob/main/README.md#memory-management)
+   - [Network Handling](https://github.com/waleHa/SocialX/blob/main/README.md#network-handling)
+   - [Complex UI Interactions](https://github.com/waleHa/SocialX/blob/main/README.md#complex-ui-interactions)
+6. [Future Enhancements](https://github.com/waleHa/SocialX/blob/main/README.md#future-enhancements)
+7. [Getting Started](https://github.com/waleHa/SocialX/blob/main/README.md#getting-started)
+   - [Prerequisites](https://github.com/waleHa/SocialX/blob/main/README.md#prerequisites)
+   - [Installation](https://github.com/waleHa/SocialX/blob/main/README.md#installation)
+8. [License](https://github.com/waleHa/SocialX/blob/main/README.md#license)
+
+---
+
 ## Introduction
 
 SocialX is designed to mimic the core functionalities of social media platforms, providing users with a scrollable feed of visually appealing posts, likes, and comments. While developed as an assignment, SocialX showcases advanced techniques in Android development, focusing on performance optimization, efficient memory management, robust network handling, and complex UI interactions.
