@@ -4,11 +4,48 @@ Welcome to **SocialX**, a social media feed application developed as an assignme
  
 ---
 
+## Table of Contents
+
+1. [Introduction](https://github.com/waleHa/SocialX/blob/main/README.md#introduction)
+2. [Sample](https://github.com/waleHa/SocialX/blob/main/README.md#sample)
+3. [Key Features](https://github.com/waleHa/SocialX/blob/main/README.md#key-features)
+   - [Scrollable Feed of Posts with Images](https://github.com/waleHa/SocialX/blob/main/README.md#scrollable-feed-of-posts-with-images)
+   - [Like/Unlike Functionality](https://github.com/waleHa/SocialX/blob/main/README.md#likeunlike-functionality)
+   - [Comment Section](https://github.com/waleHa/SocialX/blob/main/README.md#comment-section)
+   - [Pull to Refresh](https://github.com/waleHa/SocialX/blob/main/README.md#pull-to-refresh)
+   - [User Profiles](https://github.com/waleHa/SocialX/blob/main/README.md#user-profiles)
+   - [Offline Support](https://github.com/waleHa/SocialX/blob/main/README.md#offline-support)
+4. [Technical Implementation](https://github.com/waleHa/SocialX/blob/main/README.md#technical-implementation)
+   - [Architecture Overview](https://github.com/waleHa/SocialX/blob/main/README.md#architecture-overview)
+   - [Tech Stack](https://github.com/waleHa/SocialX/blob/main/README.md#tech-stack)
+   - [Design Patterns and Principles](https://github.com/waleHa/SocialX/blob/main/README.md#design-patterns-and-principles)
+5. [Requirements Coverage](https://github.com/waleHa/SocialX/blob/main/README.md#requirements-coverage)
+   - [List Performance](https://github.com/waleHa/SocialX/blob/main/README.md#list-performance)
+   - [Memory Management](https://github.com/waleHa/SocialX/blob/main/README.md#memory-management)
+   - [Network Handling](https://github.com/waleHa/SocialX/blob/main/README.md#network-handling)
+   - [Complex UI Interactions](https://github.com/waleHa/SocialX/blob/main/README.md#complex-ui-interactions)
+6. [Future Enhancements](https://github.com/waleHa/SocialX/blob/main/README.md#future-enhancements)
+7. [Getting Started](https://github.com/waleHa/SocialX/blob/main/README.md#getting-started)
+   - [Prerequisites](https://github.com/waleHa/SocialX/blob/main/README.md#prerequisites)
+   - [Installation](https://github.com/waleHa/SocialX/blob/main/README.md#installation)
+8. [License](https://github.com/waleHa/SocialX/blob/main/README.md#license)
+
+---
+
 ## Introduction
 
 SocialX is designed to mimic the core functionalities of social media platforms, providing users with a scrollable feed of visually appealing posts, likes, and comments. While developed as an assignment, SocialX showcases advanced techniques in Android development, focusing on performance optimization, efficient memory management, robust network handling, and complex UI interactions.
 
 **Note**: The APIs used in this app are for demonstration purposes and utilize dummy data to simulate real-world interactions.
+
+
+---
+
+## Sample
+
+
+<img width="329" alt="image" src="https://github.com/user-attachments/assets/a4a31f27-56b8-487a-8f10-ca12e50ab55f">
+
 
 ---
 
@@ -218,27 +255,29 @@ SocialX is built using **Clean Architecture** principles, promoting separation o
 ---
 
 ## Future Enhancements
-
-1. **User Authentication**: Implement sign-up and login for personalized experiences.
-2. **Real-Time Updates**: Use WebSockets or Firebase for live feed updates.
-3. **Enhanced Like Functionality**:
+1. **Unit Tests**: Start by testing ViewModels and Use Cases for verifying business logic.
+2. **User Authentication**: Implement sign-up and login for personalized experiences.
+3. **Real-Time Updates**: Use WebSockets or Firebase for live feed updates.
+4. **Enhanced Like Functionality**:
     - Attach likes to specific users, allowing users to see who liked a post.
     - Add animations for like/unlike actions.
-4. **Improved Comments**:
+5. **Improved Comments**:
     - Threaded comments for direct replies.
     - Comment moderation features.
-5. **Deferred Actions**:
+6. **Deferred Actions**:
     - Allow offline likes and comments, syncing when online.
-6. **Connectivity Awareness**:
+7. **Connectivity Awareness**:
     - Notify users of network status changes.
-7. **Profile Customization**:
+8. **Profile Customization**:
     - Users can edit their profiles, including bio and profile picture.
-8. **Push Notifications**:
+9. **Push Notifications**:
     - Notify users of interactions like likes, comments, or mentions.
-9. **Explore Page**:
+10. **Explore Page**:
     - Discover new content based on interests or trends.
-10. **Direct Messaging**:
+11. **Direct Messaging**:
     - Private messaging between users.
+12. **Modularization**:
+    - Split the app into multi-modules based on features and clean architecture for better scalability.
 
 ---
 
