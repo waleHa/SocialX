@@ -53,8 +53,8 @@ fun HomeScreen(
                         PostItem(
                             post = postItem,
                             isExpanded = isExpanded,
-                            onToggleDescription = { viewModel.togglePostDescription(postItem.id) },
-                            onLikeClick = { viewModel.toggleLike(postItem.id) },
+                            onToggleDescription = { viewModel.expandPostComments(postItem.id) },
+                            onLikeClick = { viewModel.updateLikeState(postItem.id) },
                             onAddComment = { commentText ->
                                 viewModel.addComment(
                                     postItem.id,

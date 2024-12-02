@@ -1,7 +1,7 @@
 # SocialX - A Modern Social Media Feed App
 
 Welcome to **SocialX**, a social media feed application developed as an assignment. SocialX provides a seamless and interactive experience for users to browse, like, and comment on posts, all within a beautifully designed interface that provides very basic functionality.
-
+ 
 ---
 
 ## Introduction
